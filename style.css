@@ -1,0 +1,86 @@
+#calc-body {
+    height: 800px;
+    width: 700px;
+    margin: 150px auto;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.buttons {
+    padding: 30px;
+    width: 162px;
+    height: 120.5px;
+    font-size: 30px;
+    border-radius: 100px;
+    margin-top: 5px;
+    border-width: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+#display {
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 30px;
+    height: 100px;
+    width: 650px;
+    background-color: lightgray;
+    font-size: 55px;
+    text-align: right;
+    
+
+}
+#row1 {
+    margin-top: 20px;
+    margin-left: 21px;
+}
+#row2 {
+    margin-left: 21px;
+}
+#row3 {
+    margin-left: 21px;
+}
+#row4 {
+    margin-left: 21px;
+}
+#row5 {
+    margin-left: 21px;
+}
+#zero {
+    width: 329px;
+    background-color: darkslategrey;
+    color: white;
+}
+#zero:hover {
+    background-color: rgb(73, 112, 112);
+}
+#decimal {
+    background-color: darkslategrey;
+    color: white;
+}
+#decimal:hover {
+    background-color: rgb(73, 112, 112);
+}
+.operators {
+    background-color: orange;
+    color: white;
+}
+.operators:hover {
+    background-color: rgb(252, 210, 133);
+}
+.numbers {
+    background-color: darkslategrey;
+    color: white;
+}
+.numbers:hover {
+    background-color: rgb(73, 112, 112);
+}
+#clear:hover {
+    background-color: rgba(238, 238, 238, 0.993);
+}
+#sign:hover {
+    background-color: rgba(238, 238, 238, 0.993);
+}
+#percent:hover {
+    background-color: rgba(238, 238, 238, 0.993);
+}
